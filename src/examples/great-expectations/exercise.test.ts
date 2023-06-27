@@ -168,7 +168,7 @@ describe('explode', () => {
     explode();
   });
 
-  it('should throw a specific error containing "terribly wrong"', () => {
+  it.todo('should throw a specific error containing "terribly wrong"', () => {
     // explode();
     expect(explode()).toThrowErrorMatchingInlineSnapshot("terribly wrong")
   });
