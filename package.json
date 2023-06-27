@@ -12,7 +12,8 @@
     "coverage": "vitest --coverage --run",
     "test": "echo \"Navigate into an example and run the tests from there!\" && exit 1",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "cmd": "echo ############### Test start running ###############"
   },
   "keywords": [
     "react",
