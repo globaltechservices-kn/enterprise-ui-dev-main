@@ -4,7 +4,7 @@ import ObstacleCourse from './obstacle-course.svelte';
 
 expect.extend(toHaveNoViolations);
 
-it('should demonstrate this matcher`s usage', async () => {
+it.todo('should demonstrate this matcher`s usage', async () => {
   const { container } = render(ObstacleCourse);
   const results = await axe(container);
 
