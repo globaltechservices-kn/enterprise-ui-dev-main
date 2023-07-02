@@ -28,7 +28,7 @@ test('it should render the component with an initial count', () => {
   expect(screen.getByTestId('current-count')).toHaveTextContent('1');
 });
 
-test.only('it should reset the count when the "Reset" button is pressed', async () => {
+test('it should reset the count when the "Reset" button is pressed', async () => {
   const { user } = render(<Counter initialCount={455} />);
   const currentCount = screen.getByTestId('current-count');
   const incrementButton = screen.getByRole('button', { name: /increment/i });
